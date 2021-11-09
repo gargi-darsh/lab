@@ -3,7 +3,7 @@ provider "google" {
     region = "us-central1"
 }  
 
-vriable "project" {
+variable "project" {
     type=string
 }
 variable "mt" {
