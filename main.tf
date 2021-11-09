@@ -12,7 +12,7 @@ variable "mt" {
     default= "f1-micro"
 }
 
-resource "google_compute_instance" "myvm" {
+resource "google_compute_instance" "myvm4" {
     name = "myfirstvm"
     zone = "us-central1-a"
     machine_type = var.mt
