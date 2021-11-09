@@ -5,9 +5,10 @@ provider "google" {
 
 variable "mt" {
 
-    type ="string"
+    type =string
     default= "f1-micro"
 }
+
 resource "google_compute_instance" "myvm" {
     name = "myfirstvm"
     zone = "us-central1-a"
