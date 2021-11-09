@@ -1,8 +1,11 @@
 provider "google" {
-    project = "applied-card-331603"
+    project = var.project
     region = "us-central1"
 }  
 
+vriable "project" {
+    type=string
+}
 variable "mt" {
 
     type =string
